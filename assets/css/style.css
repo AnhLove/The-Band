@@ -364,6 +364,16 @@ html {
     display: inline-block;
 }
 
+.contact-info a {
+    color: #0000ee;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
 }
@@ -418,6 +428,10 @@ html {
     align-items: center;
     justify-content: center;
     display: none;
+}
+
+.modal-footer .modal-help a {
+    cursor: pointer;
 }
 
 .modal.open {
